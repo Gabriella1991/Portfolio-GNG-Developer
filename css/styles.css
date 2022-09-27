@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+display: grid;
+justify-content: space-evenly;
+ align-items: center;
+min-height: 100vh;
+ background: #000
+   linear-gradient(45deg, red, blue);
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-image: url(/img/Die\ Prinzipien\ der\ Animation.jpg);
+    
+
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid rgb(201, 119, 248) ;/*hier hab ich die farbe verändert vom original */
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: 0s;
+}
+.container a:hover {
+    transition-delay: 0.5s;
+    color: #000;
+    box-shadow: 0 0 10px #0f0,
+    0 0 20px #0f0,
+    0 0 40px #0f0,
+    0 0 80px #0f0,
+    0 0 160px #0f0;
+}
+.container a span {
+    position: relative;
+    z-index: 100;
+}
+.container a:nth-child(2) {
+    filter: hue-rotate(80deg);
+}
+.container a::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0f0;
+    box-shadow: 5px -8px 0 #0f0,
+                5px 8px 0 #0f0;
+    transition: width 0.5s, left 0.5s, height 0.5s
+    box-shadow 0.5s;
+    transition-delay: 1s,0.5s,0s,0s;
+}
+.container a:hover::before{
+    width: 60%;
+    height: 100%;
+    left: -2px;
+    box-shadow: 5px 0 0 #0f0,
+                5px 0 0 #0f0;
+    /* Die transition-delayCSS-Eigenschaft gibt die Wartezeit an, bevor der Übergangseffekt einer Eigenschaft gestartet wird,
+     wenn sich ihr Wert ändert.*/
+     transition-delay: 0s,0s,0.1s,0.1s;
+
+
+
+}
+
+.container a::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0f0;
+    box-shadow: -5px -8px 0 #0f0,
+                -5px 8px 0 #0f0;
+    transition: width 0.5s, left 0.5s, height 0.5s
+    box-shadow 0.5s;
+    transition-delay: 1s,0.5s,0s,0s;
+}
+.container a:hover::after{
+    width: 60%;
+    height: 100%;
+    right: -2px;
+    box-shadow: -5px 0 0 #0f0,
+                -5px 0 0 #0f0;
+    /* Die transition-delayCSS-Eigenschaft gibt die Wartezeit an, bevor der Übergangseffekt einer Eigenschaft gestartet wird,
+     wenn sich ihr Wert ändert.*/
+    transition-delay: 0s,0s,0.1s,0.1s;
+
+
+
+}
+
+.box {
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 18px;
+    transition-property: background-color, font-size, transform, color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+  }
+  
+  .transformed-state {
+    transform: rotate(360deg);
+    background-color: blue;
+    color: yellow;
+    font-size: 12px;
+    transition-property: background-color, font-size, transform, color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+  }
+  /*------------------------------------------------------------HIER SIND DIE BOXEN DIE SICH DREHEN------------------------------------*/
+  .delay-1 {
+    transition-delay: 0,5s;
+    height: 300px;
+    width: 300px;
+    /*background-image: url(/img/Die\ Prinzipien\ der\ Animation.jpg);*/
+    border: 2px white solid;
+    font-size: 12pt;
+  }
+  
+  .delay-2 {
+    transition-delay: 2s;
+    height: 300px;
+    width: 300px;
+    border: 2px white solid;
+    font-size: 12pt;
+  }
+  
+  .delay-3 {
+    transition-delay: 3s;
+    height: 300px;
+    width: 300px;
+    border: 2px white solid;
+    font-size: 12pt;
+    
+  }
+  /*-----------------------------------------------------------------KONTAKTFORMULAR------------------------------------------------------------------*/
+  .cs-form {
+    width: 70%;
+    margin: 2em;
+    padding: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+
+    border: aquamarine 2px solid;
+    color: aquamarine
+  }
+  /*---------------------------------------------------------------------footer-----------------------------------------*/
+
+.footer-kontaktfeld{
+  height: 100vh;
+  
+}
+ /*---------------------------------------------------------------------HEADER-IMAGE-UND PARAGRAPH-----------------------------------------*/
+img{
+  border-radius: 50%;
+  margin: 15px;
+  padding: 15px;
+  
+ 
+}
+p{
+  color: aquamarine;
+}
+.main-first-section{
+  display: grid;
+  justify-content: center;
+}

@@ -12,10 +12,10 @@ body{
     min-height: 100vh;
     background: #000
 
-     height: 100vh;
+  /*    height: 100vh;
   
   background-image: url(/img/Die\ Prinzipien\ der\ Animation.jpg);
-  
+   */
 }
 h1{
   color:aquamarine;
@@ -143,8 +143,8 @@ h1{
   /*------------------------------------------------------------HIER SIND DIE BOXEN DIE SICH DREHEN------------------------------------*/
   .delay-1 {
     transition-delay: 0,5s;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     /*background-image: url(/img/Die\ Prinzipien\ der\ Animation.jpg);*/
     border: 2px white solid;
     font-size: 12pt;
@@ -152,16 +152,16 @@ h1{
   
   .delay-2 {
     transition-delay: 2s;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 310px;
     border: 2px white solid;
     font-size: 12pt;
   }
   
   .delay-3 {
     transition-delay: 3s;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 310px;
     border: 2px white solid;
     font-size: 12pt;
     
@@ -195,7 +195,7 @@ h1{
  /*---------------------------------------------------------------------HEADER-IMAGE-UND PARAGRAPH-----------------------------------------*/
  .main-first-section{
   
-  width: 45vw;
+  width: 75vw;
 
   display: grid;
   margin: 0;
@@ -208,8 +208,6 @@ img{
   border-radius: 50%;
   margin: 15px;
   padding: 15px;
-  
- 
 }
 p{
   color: aquamarine; /* textfarbe*/

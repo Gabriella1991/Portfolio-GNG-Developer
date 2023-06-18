@@ -1,96 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Portfolio-Best/css/styles2.css">
-    <link rel="stylesheet" href="/Portfolio-Best/css/styles.css">
-    <title>Gabriella Nagy-Giessing Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles2.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+  <title>Gabriella Nagy-Giessing Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Kontakt</a>
-            <a href="#">Links</a>
-          </nav>
-          
-    </header>
-    
-    <main>
-        <section class="main-first-section">
-            <img src="/Portfolio-Best/img/1697459-middle.png" width="250px" height="250px"alt="">
-            <p>Hallo, mein Name ist Gaby....
-                Ich bin eine Web Developerin aus Hannover/DE. Ich habe eine große Leidenschaft für UI-Effekte, 
-                Animationen und das Erstellen intuitiver, dynamischer Benutzererlebnisse.
-                Gut organisierter Mensch, Problemlöser, selbstständig mit viel Liebe zum Detail.
-                Fan von Musik, MMO-Spielen und Outdoor-Aktivitäten.
-                Interessiert an App-Entwicklung und 3D-Graphic Bereich. 
+  <!--- HEADER MIT NAV ------------------------------------------------------------------------------------------------------------- -->
 
-            </p>
-        </section>
-        <section>
+  <header class="header">
 
-            <div class="box delay-1"><h2>HTML</h2>
-                HTML ist die Auszeichnungssprache, die wir verwenden, um unsere Webinhalte zu strukturieren und ihnen Bedeutung zu verleihen,
-                z. B. um Absätze, Überschriften und Datentabellen zu definieren oder Bilder und Videos in die Seite einzubetten.
+    <nav>
+      <a class="header-ankers" href="#">Home</a>
+      <a class="header-ankers" href="#projekte">Projekte</a>
+      <a class="header-ankers" href="#skills">Skills</a>
+      <a class="header-ankers" href="#kontakt">Kontakt</a>
+    </nav>
+
+    <section class="main-first-section">
+      <img src="/img/1697459-middle.png" width="250px" height="250px" alt="">
+      <h1>Gabriella Nagy-Giessing</h1>
+      <h2>Web Entwicklerin</h2>
+      <p class="header-par">Hallo, mein Name ist Gaby....
+        Ich bin eine Full-Stack-Entwicklerin mit einer Leidenschaft für technologische Innovationen.
+        Selbstständige und kontaktfreudige Person in der Lage, sowohl alleine als auch im Team effizient zu arbeiten und
+        bringe eine schnelle Auffassungsgabe mit.
+      </p>
+
+    </section>
+  </header>
+
+  <main>
+
+    <section class="main-projekte">
+      <section id="projekte">
+        <p class="hline"></p>
+        <h1>Projekte</h1>
+      </section>
+      <div class="container">
+        <a href="https://github.com/Gabriella1991/Kuehlschrank-Managment-pb-final-projekt"><span>Kühlschrank Managment
+            App</span></a>
+        <img src="/img/fridge.png" width="800px" height="400px" alt="">
+
+
+        <a href="https://amazingdrucksoundmusikproduction.netlify.app/"><span>Amazing Drucksound Production
+            Webseite</span></a>
+        <img src="/img/amazingdrucksound.png" alt="" width="800px" height="400px">
+<!-- 
+        <div class="container my-5">
+
+          <section>
+
+            <div class=" card rounded mb-4">
+
+              <div class="row">
+
+                <div class="col-md-6">
+                  <hr>
+                  <img class="img-fluid rounded rounded-left" src="/img/amazingdrucksound.png" alt="project image">
+                  <hr>
+                  <img class="img-fluid rounded rounded-left" src="/img/amazingdrucksoundprod.png" alt="project image">
+
+                </div>
+
+                <div class="col-md-6 p-5 align-self-center">
+
+                  <h5 class="font-weight-normal mb-3" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000">Project detail</h5>
+
+                  <p class="text-muted" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                    data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">Out or geared it but to best up
+                    samples the for she phase of copy would do in divine
+                    of taken and the take medical or upper at him in the logbook were, we price his mostly to commas.
+                  </p>
+
+                  <ul class="list-unstyled font-small mt-5 mb-0">
+                    <li>
+                      <p class="text-uppercase mb-2" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Client</strong>
+                      </p>
+                      <p class="text-muted mb-4" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">Envato Inc.</p>
+                    </li>
+
+                    <li>
+                      <p class="text-uppercase mb-2" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Date</strong></p>
+                      <p class="text-muted mb-4" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">November 27, 2022</p>
+                    </li>
+
+                    <li>
+                      <p class="text-uppercase mb-2" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Skills</strong>
+                      </p>
+                      <p class="text-muted mb-4" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-up" data-mdb-animation-duration="1000">HTML, CSS, Javascript</p>
+                    </li>
+
+
+                    <li>
+                      <p class="text-uppercase mt-4 mb-2" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                        data-mdb-animation="slide-in-down" data-mdb-animation-duration="1000"><strong>Share</strong></p>
+                      <div class="d-flex justify-content-start" data-mdb-toggle="animation"
+                        data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-up"
+                        data-mdb-animation-duration="1000">
+                        <a class="text-muted pe-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="text-muted pe-3" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="text-muted pe-3" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="text-muted" href="#"><i class="fab fa-dribbble"></i></a>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div> 
+
+              </div>
+
             </div>
-            <div class="box delay-1"><h2>CSS</h2>
-                CSS ist eine Sprache der Stilregeln, die wir verwenden, um Stile auf unsere HTML-Inhalte anzuwenden,
-                z. B. um Hintergrundfarben und Schriftarten festzulegen und unsere Inhalte in mehreren Spalten anzuordnen.</div>
-            <div class="box delay-1"><h2>Javascript</h2>
-                JAVASCRIPT  JavaScript sorgt dafür, dass Webseiten sich dynamisch aufbauen und dem Benutzer anpassen können. 
-                In JavaScript können komplexe Kontrollabfragen programmiert und mit Datenbanken verknüpft werden, um die Eingaben der Besucher zu prüfen. In JavaScript werden umfangreiche Browsergames geschrieben,
-                 die so clever gemacht sind, dass man sie vom Vorbild kaum unterscheiden kann.</div>
 
-            <button id="change">Drehen</button>
-        </section>
+          </section>
 
-        
-        
-
-        <div class="container">
-            <a href="#"><span>A&D Music Producer Portfolio</span></a>
-            <a href="#"><span>Mario</span></a>
-            <a href="#"><span>Projekt 3</span></a>
-            <a href="#"><span>Projekt 4</span></a>
-    
         </div>
 
-        
 
-    </main>
 
-    <footer class="footer-kontaktfeld">
-        <form id="Kontakt" class="cs-form cs-message">
-            <section><h1>Kontaktformular</h1></section>
-            
+ -->
 
-            <label for="vorname">Vorname: </label>
-            <input type="text" class="field field1" placeholder="Vorname" name="vorname" id="vorname">
-        
-            <label for="Nachname">Nachname: </label>
-            <input type="text" class="field field2" placeholder="Nachname" name="nachname" id="nachname">
-        
-            <label for="PLZ">PLZ: </label>
-            <input type="text" class="field field3" placeholder="PLZ" name="plz" id="plz">
-        
-            <label for="E-mail">E-mail: </label>
-            <input type="email" class="field field4" placeholder="E-mail" name="email" id="email">
-        
-            <label for="nachricht">Schreibe mir einen Nachricht </label>
-            <textarea class="textarea" rows="5" cols="20" placeholder="Schreibe mir einen Nachricht" name="nachricht" id="nachricht"></textarea>
-        
-            <button class="button" type="submit">
-                OK
-            </button>
-        
-          </form>
-    </footer>
 
-    <script src="/Portfolio-Best/js/script.js"></script>
-    
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+    </section>
+
+
+    <section class="main-skills">
+      <section id="skills">
+        <p class="hline"></p>
+        <h1>Skills</h1>
+      </section>
+      <div>
+        <h3 align="left">Languages and Tools:</h3>
+        <p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+              alt="bootstrap" width="40" height="40" /> </a> <a href="https://www.w3schools.com/css/" target="_blank"
+            rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+              alt="css3" width="40" height="40" /> </a> <a href="https://www.docker.com/" target="_blank"
+            rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+              alt="docker" width="40" height="40" /> </a> <a href="https://expressjs.com" target="_blank"
+            rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+              alt="express" width="40" height="40" /> </a> <a href="https://www.figma.com/" target="_blank"
+            rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40"
+              height="40" /> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img
+              src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" /> </a>
+          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+              alt="html5" width="40" height="40" /> </a> <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+              alt="javascript" width="40" height="40" /> </a> <a href="https://www.linux.org/" target="_blank"
+            rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"
+              width="40" height="40" /> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+              alt="mongodb" width="40" height="40" /> </a> <a href="https://nodejs.org" target="_blank"
+            rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+              alt="nodejs" width="40" height="40" /> </a> <a href="https://postman.com" target="_blank"
+            rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"
+              width="40" height="40" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+              alt="react" width="40" height="40" /> </a> <a href="https://reactnative.dev/" target="_blank"
+            rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40"
+              height="40" /> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"
+              width="40" height="40" /> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img
+              src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40"
+              height="40" /> </a>
+        </p>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <footer id="kontakt">
+
+    <section class="footer-kontaktfeld">
+      <section>
+        <p class="hline"></p>
+        <h1>Kontakt</h1>
+      </section>
+
+
+      <div>
+        <h3 align="left">Connect with me:</h3>
+        <p align="left">
+
+          <a href="https://linkedin.com/in/gabriella-nagy-giessing-473b70260/" target="blank"><img align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+              alt="https://www.linkedin.com/in/gabriella-nagy-giessing-473b70260/" height="30" width="40" /></a>
+          <a href="https://www.facebook.com/gabriella.nagy.144/" target="blank"><img align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
+              alt="https://www.facebook.com/gabriella.nagy.144/" height="30" width="40" /></a>
+          <a href="https://twitter.com/engie4379" target="blank"><img align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+              alt="engie4379" height="30" width="40" /></a>
+        </p>
+        <li>
+          <a href="https://github.com/Gabriella1991">GitHub</a>
+        </li>
+      </div>
+      <p style="color:white ;">E-mail: engie4379@gmail.com</p>
+
+    </section>
+  </footer>
+
+  <script src="/Portfolio-Best/js/script.js"></script>
+
 </body>
+
 </html>

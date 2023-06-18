@@ -3,9 +3,9 @@ nav {
     gap: 0.5rem;
   }
   
-  a {
+  .header-ankers {
     flex: 1;
-    background-color: #333;
+    background-color: transparent;
     color: #fff;
     border: 1px solid;
     padding: 0.5rem;
@@ -14,9 +14,25 @@ nav {
     transition: all 0.5s ease-out;
   }
   
-  a:hover,
-  a:focus {
+  .header-ankers:hover,
+  .header-ankers:focus {
     background-color: #fff;
     color: #333;
+  }
+  header{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( grey, Black);
+    background: url(/img/space-wallpaper-hd-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+/*     background: url(/Portfolio-Best/img/Black\ Aesthethic\ Education\ Online\ Portfolio.png);
+ */
+  }
+
+  .card{
+    width: 500px;
+    height: 500px;
   }
   
